@@ -32,7 +32,8 @@ var
         template: {
             dir: path.resolve(__dirname, './bash'),
             ext: 'sh'
-        }
+        },
+        isDebug: true // will output bash to the console upon #run()
     },
     template = BashTemplate.forge(options);
 
@@ -47,6 +48,12 @@ template.run('script', { message: 'ok' }, function (error, stdout, stderr) {
     console.log(stderr); // 
 });
 ```
+
+## Change Log
+
+### 0.1.1
+
+Add `isDebug` option to output bash upon `#run()`
 
 ## License
 
