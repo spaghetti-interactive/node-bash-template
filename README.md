@@ -55,6 +55,10 @@ template.run('script', { message: 'ok' }, function (error, stdout, stderr) {
 
 Add `isDebug` option to output bash upon `#run()`
 
+### 0.1.2
+
+`isDebug` option now enables piping of `exec`'s `stdout` and `stderr` to `process`
+
 ## License
 
 The project is licensed under the MIT license.

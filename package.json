@@ -1,6 +1,6 @@
 {
   "name": "node-bash-template",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple bash template engine and runner for Node.js",
   "main": "lib/BashTemplate.js",
   "directories": {

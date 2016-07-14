@@ -24,7 +24,8 @@ describe('Unit tests', function () {
         template: {
           dir: path.resolve(__dirname, './bash'),
           ext: 'sh'
-        }
+        },
+        isDebug: true
       };
 
     template = BashTemplate.forge(options);
